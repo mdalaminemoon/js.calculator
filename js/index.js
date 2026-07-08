@@ -25,7 +25,7 @@ else if (choice === "/")
 else if (choice === "%") 
 {
     result = Number(num1) % Number(num2);
-    console.log("div: " , result);
+    console.log("Modulus: ", result);
 }
 else if (choice === ">") 
 {
