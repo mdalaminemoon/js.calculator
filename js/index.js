@@ -30,11 +30,15 @@ else if (choice === "%")
 else if (choice === ">") 
 {
     result = Number(num1) >> Number(num2);
-    console.log("div: " , result);
+    console.log("Bitwise Right Shift: " , result);
 }
 else if (choice === "<") 
 {
     result = Number(num1) << Number(num2);
-    console.log("div: " , result);
+    console.log("Bitwise Left Shift: " , result);
 }
-else {"Invalid Choice"}
+else
+{
+    console.log("Invalid Choice")
+
+}
